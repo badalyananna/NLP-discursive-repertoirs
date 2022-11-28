@@ -7,3 +7,6 @@ __pycache__/
 
 RepML_original/
 Experiments_with_properties/
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
