@@ -1,0 +1,9 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+*.sif
+**/.neptune
+**/.vscode
+
+RepML_original/
+Experiments_with_properties/
