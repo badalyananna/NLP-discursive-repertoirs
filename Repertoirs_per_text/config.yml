@@ -1,0 +1,17 @@
+save: False 
+seed: 4321
+batch_size: 24
+n_epochs: 10
+learning_rate: 1e-5
+
+model: 'dbmdz/bert-base-italian-xxl-uncased'
+#'dbmdz/bert-base-italian-xxl-uncased'
+#'xlm-roberta-large'
+#'m-polignano-uniba/bert_uncased_L-12_H-768_A-12_italian_alb3rt0'
+#'dbmdz/bert-base-italian-xxl-uncased'
+#'bert-base-multilingual-cased'
+
+loss_weights: [514.25,  39.41176471,   2.79558011,  28.11016949, 65.91558442,  11.50606796,  24.44444444,   4.18360161,
+        36.20216606,  16.23244147,   5.80647292,  39.25390625, 27.7849162 ,  13.91316932,  13.3125    ,  32.45779221,
+        8.39380128,  16.890625  ,  68.62837838,  20.60377358, 2.5682133 ,  16.49575552,   8.56824513]
+task: 'multilabel repertoir classification'
